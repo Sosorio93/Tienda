@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models\bin\**" />
+    <Compile Remove="Models\obj\**" />
+    <Content Remove="Models\bin\**" />
+    <Content Remove="Models\obj\**" />
+    <EmbeddedResource Remove="Models\bin\**" />
+    <EmbeddedResource Remove="Models\obj\**" />
+    <None Remove="Models\bin\**" />
+    <None Remove="Models\obj\**" />
+  </ItemGroup>
+
 </Project>
